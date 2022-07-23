@@ -19,4 +19,4 @@ public class PimPage {
 		buttonPages.btnAdd();
 	}
 
-}
+}   

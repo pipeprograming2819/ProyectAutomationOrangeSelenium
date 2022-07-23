@@ -2,6 +2,7 @@
 #Proyecto de pruebas y cargado en Github
 #23/07/2022
 #pipeprogramaming 
+@Regresion
 Feature: Pim
 
   Scenario Outline: Add Empleoyee

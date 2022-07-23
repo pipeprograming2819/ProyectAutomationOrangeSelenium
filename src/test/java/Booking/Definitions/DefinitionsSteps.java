@@ -31,7 +31,7 @@ public class DefinitionsSteps {
 	}
 	@And("^llegar a la opcion agregar empleado$")
 	public void llegarAddEmployee() {
-		this.pimPage = new PimPage(driver);
+		this.pimPage = new PimPage(driver);  
 		this.pimPage.llegaAddEmployee();
 	}
 }

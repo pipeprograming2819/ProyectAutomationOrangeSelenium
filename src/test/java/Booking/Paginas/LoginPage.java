@@ -22,7 +22,7 @@ public class LoginPage {
         private WebElement inputPassword;
         
     	//Este es el Constructor
-        public LoginPage(WebDriver driver){
+        public LoginPage(WebDriver driver){ 
 		
 		//Esta linea es la que toma los elementos web
 		PageFactory.initElements(driver, this);
