@@ -30,6 +30,6 @@ public class ButtonPages {
 	}
 	
 	public void btnPim() {
-		btnPim.click();   
+		btnPim.click();         
 	}
 }
