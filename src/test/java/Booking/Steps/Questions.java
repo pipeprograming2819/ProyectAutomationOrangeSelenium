@@ -16,6 +16,9 @@ import org.openqa.selenium.OutputType;
 
 public class Questions {
 
+	public Questions(WebDriver driver) {
+		
+	}
 	@Step
 	public void tituloAssert(WebDriver driver) {
 

@@ -17,6 +17,9 @@ public class ButtonPages {
 	@FindBy(how = How.XPATH, using = "//input[@value ='Add']")
 	private WebElement btnAdd; 
 	
+	@FindBy(how = How.ID, using = "btnSave")
+	private WebElement btnSave; 
+		
 	public ButtonPages(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 	}
@@ -32,4 +35,8 @@ public class ButtonPages {
 	public void btnPim() {
 		btnPim.click();   
 	}
+	public void btnSave() {
+		btnSave.click();
+	}
+	
 }

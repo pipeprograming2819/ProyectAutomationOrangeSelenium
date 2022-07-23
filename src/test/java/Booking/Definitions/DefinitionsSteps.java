@@ -7,6 +7,7 @@ import Booking.Paginas.PimPage;
 import Booking.Steps.Conexion;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 
 
 
@@ -33,5 +34,10 @@ public class DefinitionsSteps {
 	public void llegarAddEmployee() {
 		this.pimPage = new PimPage(driver);  
 		this.pimPage.llegaAddEmployee();
+	}
+	@When("^diligencie nombre(.*) y apellido (.*)$")
+	public void dilifenciaEmpleado(String firstName, String LastName) {
+		this.pimPage =  new PimPage(driver);
+		this.pimPage.diligenciaEmpleado(firstName, LastName); 
 	}
 }
